@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Justin Guerra | Website </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+    /* Add custom styles for the scroll-to-top button */
+    #scrollToTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+    }
+    </style>
+
+  </head>
+  <body >
+    <header>
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-md  fixed-top" >
+        <div class="container">
+          <!--Logo-->
+          <a class="navbar-brand" href="#"
+            ><button class="btn btn-dark-outline rounded-0 border border-dark">
+              <em>J</em>
+            </button></a
+          >
+          <!--Button-->
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Sidebar-->
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <span></span>
+              </h5>
+              <button
+                type="button"
+                class="btn-close shadow-none border-0"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item nav-underline mx-2">
+                  <a class="nav-link " href="#about"
+                    ><span class="lead">About</span></a
+                  >
+                </li>
+                <li class="nav-item nav-underline mx-2">
+                  <a class="nav-link " href="#projects"
+                    ><span class="lead">Projects</span></a
+                  >
+                </li>
+                <li class="nav-item nav-underline mx-2">
+                  <a class="nav-link" href="#contact"
+                    ><span class="lead">Let's Talk -></span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      </header>
+      <!--Main-->
+      <main class="d-flex justify-content-center  align-items-center" style="background-color: #d4cec8; min-height: 100vh;">
+        <div class="container">
+        <div class="text-center">
+          <span class="display-1" style="font-size: 100px;">Justin Guerra</span>
+          <p class="lead"> <em>~ A Code Poet</em></p>
+        </div>
+        </div>
+    </main>
+
+    <!--About Section-->
+    <section id="about" class="p-5 bg-white ">
+      <div class="container">
+        <p class="fw-light text-center text-dark mt-5 mb-0">Get to know more</p>
+
+        <h1 class="text-center text-dark mb-5 display-5">About Me</h1>
+
+        <div class="card col-12 col-md-8 mx-auto mt-5 mb-5 rounded-0">
+          <div class="row">
+            <div class="col-md-4 p-1 ">
+              <img src="img/me.png" alt="me" class="img-fluid rounded-0" />
+            </div>
+
+            <div class="col-md-8 ">
+              <p class="lead text-center p-5">
+                Hey there, I'm Justin - <br>
+                a developer and creative mind from Belize. <br>
+                Recent graduate from Information Technology, 
+                I'm passionate about building Digital Solutions. 
+                <br> Let's build something together!<br>
+                <a href="mailto:developer.alexander33@gmail.com" target="_blank"><button class="btn btn-dark rounded-0 col-sm-2 col-md-2 mt-1 mb-1">
+                  <i class="bi"><img src="img/envelope.svg"/></i></button>
+                </a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+   <!--Project Section-->
+   <section id="projects" class="p-5 " style="background-color: #d4cec8;">
+      <div class="container">
+        <p class="fw-lighter text-center  mt-5 mb-0">
+          Explore my recent
+        </p>
+        <h1 class="text-center  mb-5 display-5">Projects</h1>
+        
+        <div class="card-group">
+          <!--Card 1-->
+          <div class="card border-dark rounded-0">
+            <div class="card-header border-dark">
+                <h5 class="card-title fw-lighter text-center">Inventory System</h5>
+            </div>
+            <div class="card-body ">
+              <p class="card-text fw-light">Developed a comprehensive Inventory System using Bootstrap, Javascript, PHP, and MySQL, enabling seamless CRUD functionalities.</p>
+            </div>
+            <div class="card-footer border-dark">
+            <small class="text-body-secondary">
+              <div class="row gx-2">
+                <div class="col">
+                  <button type="button" class="btn btn-outline-dark w-100 rounded-0 fw-light">
+                    Github <i class="bi"><img src="img/github.svg" alt="github"></i>
+                  </button>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-outline-dark w-100 rounded-0 fw-light">
+                    Live Demo <i class="bi"><img src="img/play.svg" alt="live"></i>
+                  </button>
+                </div>
+              </div>
+            </small>
+          </div>
+          </div>
+          <!--Card 2-->
+           <div class="card border-dark rounded-0">
+            <div class="card-header border-dark">
+                <h5 class="card-title fw-lighter text-center">AI ChatBot</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text fw-light">Integrated an AI ChatBot into my college's official website, leveraging the third-party service Chatling to enhance user engagement and interaction.</p>
+            </div>
+           <div class="card-footer border-dark">
+            <small class="text-body-secondary">
+              <div class="row">
+                <div class="col">
+                  <button type="button" class="btn btn-outline-dark w-100 rounded-0 fw-light">
+                    Live Demo <i class="bi"><img src="img/play.svg" alt="live"></i>
+                  </button>
+                </div>
+              </div>
+            </small>
+          </div>
+          </div>
+          
+          <!--Card 3-->
+          <div class="card border-dark rounded-0">
+             <div class="card-header border-dark">
+                <h5 class="card-title fw-lighter text-center">Grading System</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text fw-light">Constructed a user-friendly teacher's grading system with Bootstrap, JavaScript, PHP, and MySQL, offering efficient CRUD functionalities.</p>
+            </div>
+            <div class="card-footer border-dark">
+            <small class="text-body-secondary">
+              <div class="row gx-2">
+                <div class="col">
+                  <button type="button" class="btn btn-outline-dark w-100 rounded-0 fw-light">
+                    Github <i class="bi"><img src="img/github.svg" alt="github"></i>
+                  </button>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-outline-dark w-100 rounded-0 fw-light">
+                    Live Demo <i class="bi"><img src="img/play.svg" alt="live"></i>
+                  </button>
+                </div>
+              </div>
+            </small>
+          </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+   <!--Contact Section-->
+   <section id="contact" class="  p-5 bg-white d-flex align-items-center justify-content-center">
+      <div class="card col-12 col-md-8 mx-auto mt-5 mb-5 rounded-0">
+        <div class="container text-center">
+          <p class="fw-light text-dark mt-5 mb-0">Get in touch</p>
+          <h2 class="display-5 text-dark mb-2">Let's work together</h2>
+          <a href="mailto:developer.alexander33@gmail.com" target="_blank"><button class="btn btn-dark rounded-0 col-sm-2 col-md-1 mt-1 mb-5">
+            <i class="bi"><img src="img/envelope.svg"/></i></button></a>
+        </div>
+      </div>
+    </section>
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="btn btn-dark rounded-0 py-3 px-4" style="display: none;">
+        <i class="bi"><img src="img/arrow-up.svg"></i>
+      </button>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+      window.onscroll = function () {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          scrollToTopBtn.style.display = 'block';
+        } else {
+          scrollToTopBtn.style.display = 'none';
+        }
+      };
+
+      scrollToTopBtn.addEventListener('click', function () {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      });
+    });
+  </script>
+
+  </body>
+</html>
