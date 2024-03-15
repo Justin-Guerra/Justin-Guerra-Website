@@ -5,17 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Justin Guerra | Website </title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <style>
-    /* Add custom styles for the scroll-to-top button */
-    #scrollToTopBtn {
-      display: none;
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-    }
-    </style>
-
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body >
     <header>
@@ -131,8 +121,9 @@
         <div class="card-group">
           <!--Card 1-->
           <div class="card border-dark rounded-0">
+            <img src="img/grading.png" alt="grading" class="img-top">
             <div class="card-header border-dark">
-                <h5 class="card-title fw-lighter text-center">Inventory System</h5>
+              <h5 class="card-title fw-lighter text-center">Grading System</h5>
             </div>
             <div class="card-body ">
               <p class="card-text fw-light">Developed a comprehensive Inventory System using Bootstrap, Javascript, PHP, and MySQL, enabling seamless CRUD functionalities.</p>
@@ -142,22 +133,19 @@
               <div class="row gx-2">
                 <div class="col">
                   <button type="button" class="btn btn-outline-dark w-100 rounded-0 fw-light">
-                    Github <i class="bi"><img src="img/github.svg" alt="github"></i>
+                    <i class="bi"><img src="img/github.svg" alt="github"></i>
                   </button>
                 </div>
-                <div class="col">
-                  <button type="button" class="btn btn-outline-dark w-100 rounded-0 fw-light">
-                    Live Demo <i class="bi"><img src="img/play.svg" alt="live"></i>
-                  </button>
-                </div>
+                
               </div>
             </small>
           </div>
           </div>
           <!--Card 2-->
            <div class="card border-dark rounded-0">
-            <div class="card-header border-dark">
-                <h5 class="card-title fw-lighter text-center">AI ChatBot</h5>
+             <img src="img/inventory.png" alt="inventory" class="img-top">
+             <div class="card-header border-dark">
+              <h5 class="card-title fw-lighter text-center">Inventory System</h5>
             </div>
             <div class="card-body">
               <p class="card-text fw-light">Integrated an AI ChatBot into my college's official website, leveraging the third-party service Chatling to enhance user engagement and interaction.</p>
@@ -167,7 +155,7 @@
               <div class="row">
                 <div class="col">
                   <button type="button" class="btn btn-outline-dark w-100 rounded-0 fw-light">
-                    Live Demo <i class="bi"><img src="img/play.svg" alt="live"></i>
+                    <i class="bi"><img src="img/github.svg" alt="github"></i>
                   </button>
                 </div>
               </div>
@@ -177,10 +165,11 @@
           
           <!--Card 3-->
           <div class="card border-dark rounded-0">
+            <img src="img/money.png" alt="money" class="img-top">
              <div class="card-header border-dark">
-                <h5 class="card-title fw-lighter text-center">Grading System</h5>
+               <h5 class="card-title fw-lighter text-center">Bank System</h5>
             </div>
-            <div class="card-body">
+            <div class="card-body ">
               <p class="card-text fw-light">Constructed a user-friendly teacher's grading system with Bootstrap, JavaScript, PHP, and MySQL, offering efficient CRUD functionalities.</p>
             </div>
             <div class="card-footer border-dark">
@@ -188,13 +177,9 @@
               <div class="row gx-2">
                 <div class="col">
                   <button type="button" class="btn btn-outline-dark w-100 rounded-0 fw-light">
-                    Github <i class="bi"><img src="img/github.svg" alt="github"></i>
+                     <i class="bi"><img src="img/github.svg" alt="github"></i>
                   </button>
                 </div>
-                <div class="col">
-                  <button type="button" class="btn btn-outline-dark w-100 rounded-0 fw-light">
-                    Live Demo <i class="bi"><img src="img/play.svg" alt="live"></i>
-                  </button>
                 </div>
               </div>
             </small>
@@ -221,24 +206,7 @@
       </button>
 
   <script src="js/bootstrap.bundle.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var scrollToTopBtn = document.getElementById('scrollToTopBtn');
-
-      window.onscroll = function () {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          scrollToTopBtn.style.display = 'block';
-        } else {
-          scrollToTopBtn.style.display = 'none';
-        }
-      };
-
-      scrollToTopBtn.addEventListener('click', function () {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      });
-    });
-  </script>
+  <script src="js/script.js"></script>
 
   </body>
 </html>
